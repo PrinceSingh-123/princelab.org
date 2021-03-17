@@ -4,6 +4,7 @@ from calc_node_base import *
 from nodeeditor.utils import dumpException
 
 
+
 @register_node(OP_NODE_SQR)
 class CalcNode_sqr(CalcNode):
     icon = "icons/add.png"
@@ -12,8 +13,8 @@ class CalcNode_sqr(CalcNode):
     content_label = "**"
     content_label_objname = "calc_node_bg"
 
-    def evalOperation(self, input1, input2):
-        return input1 * input1
+    def evalOperation(self, input1, input2):    
+        return resutl
 
 @register_node(OP_NODE_ADD)
 class CalcNode_Add(CalcNode):

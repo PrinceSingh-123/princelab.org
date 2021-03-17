@@ -40,7 +40,7 @@ class CalculatorWindow(NodeEditorWindow):
         self.empty_icon = QIcon(".")
 
         if DEBUG:
-            print("Registered nodes:")
+            # print("Registered nodes:")
             pp(CALC_NODES)
 
 
@@ -67,7 +67,7 @@ class CalculatorWindow(NodeEditorWindow):
 
         self.readSettings()
 
-        self.setWindowTitle("Calculator NodeEditor Example")
+        self.setWindowTitle("princelab")
 
     def closeEvent(self, event):
         self.mdiArea.closeAllSubWindows()

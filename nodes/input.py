@@ -52,7 +52,7 @@ class CalcNode_Input(CalcNode):
         self.markDescendantsInvalid(False)
         self.markDescendantsDirty()
 
-        self.grNode.setToolTip("")
+        self.grNode.setToolTip("This node for INPUT")
 
         self.evalChildren()
 
