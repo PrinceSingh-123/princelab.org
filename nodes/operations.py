@@ -4,7 +4,7 @@ from calc_node_base import *
 from nodeeditor.utils import dumpException
 
 
-
+# My custom function
 @register_node(OP_NODE_SQR)
 class CalcNode_sqr(CalcNode):
     icon = "icons/add.png"
@@ -13,8 +13,8 @@ class CalcNode_sqr(CalcNode):
     content_label = "**"
     content_label_objname = "calc_node_bg"
 
-    def evalOperation(self, input1, input2):    
-        return resutl
+    def evalOperation(self, input1,input2):    
+        return input1 * input1
 
 @register_node(OP_NODE_ADD)
 class CalcNode_Add(CalcNode):
@@ -25,8 +25,7 @@ class CalcNode_Add(CalcNode):
     content_label_objname = "calc_node_bg"
 
     def evalOperation(self, input1, input2):
-        return input1 + input2
-
+        return int(input1) + int(input2)
 
 @register_node(OP_NODE_SUB)
 class CalcNode_Sub(CalcNode):
@@ -37,7 +36,7 @@ class CalcNode_Sub(CalcNode):
     content_label_objname = "calc_node_bg"
 
     def evalOperation(self, input1, input2):
-        return input1 - input2
+        return int(input1) - int(input2)
 
 @register_node(OP_NODE_MUL)
 class CalcNode_Mul(CalcNode):
@@ -49,7 +48,7 @@ class CalcNode_Mul(CalcNode):
 
     def evalOperation(self, input1, input2):
         print('foo')
-        return input1 * input2
+        return int(input1) * int(input2)
 
 @register_node(OP_NODE_DIV)
 class CalcNode_Div(CalcNode):
@@ -60,7 +59,7 @@ class CalcNode_Div(CalcNode):
     content_label_objname = "calc_node_div"
 
     def evalOperation(self, input1, input2):
-        return input1 / input2
+        return int(input1) / int(input2)
 
 # way how to register by function call
 # register_node_now(OP_NODE_ADD, CalcNode_Add)
