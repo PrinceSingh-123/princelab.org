@@ -6,8 +6,8 @@
         {
             "id": 22656560,
             "title": "Input",
-            "pos_x": -497.0,
-            "pos_y": -248.0,
+            "pos_x": -506.0,
+            "pos_y": -166.0,
             "inputs": [],
             "outputs": [
                 {
@@ -26,8 +26,8 @@
         {
             "id": 22766480,
             "title": "Input",
-            "pos_x": -499.0,
-            "pos_y": -130.0,
+            "pos_x": -510.0,
+            "pos_y": -41.0,
             "inputs": [],
             "outputs": [
                 {
@@ -39,7 +39,7 @@
                 }
             ],
             "content": {
-                "value": "0"
+                "value": "8"
             },
             "op_code": 1
         },
@@ -247,7 +247,7 @@
         {
             "id": 22769648,
             "title": "Output",
-            "pos_x": 78.0,
+            "pos_x": 106.0,
             "pos_y": -66.0,
             "inputs": [
                 {

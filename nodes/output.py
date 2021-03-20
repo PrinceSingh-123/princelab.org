@@ -1,6 +1,6 @@
 from PyQt5.QtCore import *
-from calc_conf import *
-from calc_node_base import *
+from princelab.calc_conf import *
+from princelab.calc_node_base import *
 from nodeeditor.utils import dumpException
 
 
