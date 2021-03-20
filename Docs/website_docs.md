@@ -12,6 +12,7 @@
 ## Our mission ##
 
 
+
 ## Why princelab ##
 
  
@@ -20,17 +21,17 @@
 
 ## features page ##
 
-1. graph based programming 
+1. graph based programming. 
 
-2. Hot Reload
+2. Hot Reload.
 
-3. Parallel computition
+3. Parallel computition.
 
-4. hidden process visiable 
+4. hidden process visable.
 
 5. Easy to implement your ideas and programming logics.
 
-6. Easy to visualize flow of data in the programm
+6. Easy to visualize flow of data in the programe.
 
 7. Easy to debug and fix your error.
 
@@ -42,8 +43,8 @@
 
 ## tutorials page ##
 
-1. getting started guide (youtube videos)
-2. getting started fuid (documentation)
+1. getting started guide (youtube videos).
+2. getting started fuid (documentation).
 
 ## download page ##
 
