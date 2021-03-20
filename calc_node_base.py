@@ -73,6 +73,7 @@ class CalcNode(Node):
         i1 = self.getInput(0)
         i2 = self.getInput(1)
 
+
         if i1 is None or i2 is None:
             self.markInvalid()
             self.markDescendantsDirty()
